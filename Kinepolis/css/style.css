@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+}
+
+table {
+    font-size: 2rem;
+    border: 1px solid grey;
+}
+
+tr {
+    border: 1px solid black;
+}

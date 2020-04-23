@@ -1,0 +1,10 @@
+short commands:
+---------------
+
+input:radio
+
+jqdocready
+
+button#pay
+
+

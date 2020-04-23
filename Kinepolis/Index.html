@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Cinema</h1>
+    <h2>Keuze Tickets:</h2>
+    <fieldset>
+        <label for="1">Eén ticket</label>
+        <input type="radio" name="ticket" id="1" value="1">
+        <br>
+
+        <label for="2">Twee tickets</label>
+        <input type="radio" name="ticket" id="2" value="2">
+    </fieldset>
+
+    <fieldset>
+        <h2>Food & Drinks</h2>
+        <input type="checkbox" name="extras" id="popcorn" value="popcorn">
+        <label for="popcorn">Popcorn 🍿 (5euro)</label>
+
+        <input type="checkbox" name="extras" id="cola" value="cola">
+        <label for="cola">Cola 🍹(2,5euro)</label>
+    </fieldset>
+
+    <button id="pay">Betalen</button>
+
+    <div id="kassabon">
+        <table>
+            <tr>
+                <th>item</th>
+                <th>prijs</th>
+            </tr>
+
+            <tr class="tickets">
+                <td>ticket(s)</td>
+                <td class="result">x</td>
+            </tr>
+
+            <tr class="extras">
+                <td>extra(s)</td>
+                <td class="result">x</td>
+            </tr>
+
+            <tr class="total">
+                <td>Totaal: </td>
+                <td class="result">x</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
