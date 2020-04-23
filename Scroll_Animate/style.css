@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#mario {
+    max-width: 100px;
+    max-height: auto;
+    position: absolute;
+}
