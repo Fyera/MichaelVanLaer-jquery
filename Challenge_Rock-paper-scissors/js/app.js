@@ -1,7 +1,5 @@
 // Bron: https://www.youtube.com/watch?v=qWPtKtYEsN4&feature=youtu.be
-// var choices = ["paper", "rock", "scissors"];
-// var i = (Math.random() * 3);
-// var ComChoice = choices[i];
+
 var userScore = 0;
 var comScore = 0;
 
